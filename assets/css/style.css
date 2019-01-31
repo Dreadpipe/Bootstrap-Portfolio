@@ -35,13 +35,18 @@ body {
     font-weight: bold;
 }
 
+/*altering for Bootstrap*/
 .nav {
+    /*FIX BACKGROUND COLOR
     position: relative;
     top: 20px;
-    margin: 10px;
+    */
     float: right;
+    margin: 10px;
+    background-color: #ffffff;
+    /*
     font-size: 80%;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.025em;*/
 }
 
 .nav:after {

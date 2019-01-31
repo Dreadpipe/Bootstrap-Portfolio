@@ -26,17 +26,24 @@
                             &#124
                         </nav>-->
                         <!--NEED TO APPLY NAV RESPONSIVENESS-->
-                        <ul class="nav justify-content-end">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
+                        <nav class="nav navbar navbar-expand-lg navbar-light">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="index.html">About</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                        </li>
+                                        <li class="nav-item active">
+                                            <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
                 </div>             
             </header>
                 <section class="container size960">
@@ -45,7 +52,7 @@
                     </div>
                     <!--NO ROWS HAVE BEEN APPLIED... STILL WORKS?-->
                     <form class="input">
-                        
+
                         <br>
                         <p class="space">Name</p>
                         <!--add <br> to create list effect-->
