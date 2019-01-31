@@ -10,6 +10,7 @@ body {
 }
 
 /*The margins here lower the Bio container*/
+
 .header {
     background-color: #ffffff;
     border-bottom: solid 3px #cccccc;
@@ -19,17 +20,18 @@ body {
 }
 
 /*Applying RESET- font-size, text-align left, padding-left, top, bottom, dropped width from 350*/
+/*CSS added for BS, reducing font-size, width from 290*/
 .name {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 290px;
+    width: 250px;
     padding-top: 24px;
     padding-left: 20px;
     padding-bottom: 23px; 
     float: left;
     text-align: left;
-    font-size: 175%;
+    font-size: 135%;
     font-weight: bold;
 }
 
@@ -72,7 +74,8 @@ h1 {
     background-color: #ffffff;
     padding-bottom: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 910px;
+    /*Removing width
+    width: 910px;*/
     margin: auto;
     border-bottom: solid 2px #cccccc;
     font-size: 125%;
@@ -82,17 +85,19 @@ h1 {
 /*Adding float-left gives correct alignment*/
 .bioimage {
     padding-top: 20px;
-    padding-left: 25px;
-    padding-right: 20px;
+    /*padding-left: 25px;
+    padding-right: 20px;*/
     float: left;
+    width: 200px;
+    height: 200px;
 }
 
 /*Adding float-left breaks, just picture*/
 .biotext {
     margin-top: 20px;
     line-height: 1.8em;
-    padding-left: 40px;
-    padding-right: 20px;
+    /*padding-left: 40px;
+    padding-right: 20px;*/
 
 }
 
@@ -124,7 +129,8 @@ content of 960px container*/
     padding-top: 40px;
     background-color: #ffffff;
     border-color: #dddddd;
-    width: 960px;
+/*MAY NEED TO REMOVE 960
+    width: 960px;*/
     margin: auto;
     font-family: "Arial", "Helvetica Neue", 
     Helvetica, sans-serif;
@@ -250,6 +256,5 @@ textarea {
 .inline {
     display: inline;
 }
-/*Attempting to add Konami code to page.
-https://www.instructables.com/id/How-to-Add-Konami-Code-to-Your-Website/*/
 
+/*NEW CSS FOR BOOTSTRAP ADJUSTMENTS*/
