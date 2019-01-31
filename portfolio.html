@@ -1,28 +1,45 @@
-<!--PORTFOLIO is behaving slightyly differently, I think due to scrolling and larger main content box.-->
 <!DOCTYPE html>
 <html>
     <head>
-        <meta lang="en-us">
-        <!--RESET.CSS SUCCESSFUL!-->
+        <!--ADD NEW META DATA ACROSS ALL PAGES-->
+        <meta charset="UTF-8" lang="en-us">
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <!--BOOTSTRAP ACTIVATED-->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         <title>Portfolio: Ben Harris</title>
     </head>
+    <!--Classes on the body, remedy-->
     <body>
+        <!--Name is off, margins are bad-->
             <header class="header">
                 <div class="size960">
+                <!--<div class="container">-->
                     <h1 class="name">Benjamin C Harris</h1>
-                        <nav class="nav">
+                        <!--PREVIOUS NAV BAR--<nav class="nav">
                             <a href="index.html">About</a>
                             &#124
                             <a href="portfolio.html">Portfolio</a>
                             &#124
                             <a href="contact.html">Contact</a>
                             &#124
-                        </nav>  
-                </div>           
+                        </nav>-->
+                        <!--NEED TO APPLY NAV RESPONSIVENESS-->
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                </div>             
             </header>
-            <section class="container">
+            <section class="container size960">
                 <h2 class="h2">Portfolio</h2>
                 <!--Having strange issues where box is slightly less uniform due to scrolling and main container size-->
                     <div class="portbox">
