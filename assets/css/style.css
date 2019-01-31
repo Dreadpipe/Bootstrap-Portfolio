@@ -88,8 +88,10 @@ h1 {
     /*padding-left: 25px;
     padding-right: 20px;*/
     float: left;
-    width: 200px;
-    height: 200px;
+    /*Adjusting height makes tiny profile pic for
+    small screens!*/
+    width: 75%;
+    height: 75%;
 }
 
 /*Adding float-left breaks, just picture*/
@@ -214,8 +216,8 @@ textarea {
     width: 90%;
     opacity: .8;
     transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
 
 }
 
