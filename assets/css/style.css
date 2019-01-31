@@ -97,8 +97,8 @@ h1 {
 .biotext {
     margin-top: 20px;
     line-height: 1.8em;
-    /*padding-left: 40px;
-    padding-right: 20px;*/
+    /*padding-left: 40px;*/
+    padding-right: 20px;
 
 }
 
@@ -142,7 +142,7 @@ content of 960px container*/
 /*coding borrowed from W3 schools input fields*/
 
 input {
-    width: 93%;
+    width: 95%;
     padding: 7px;
     font-size: 14px;
 }
