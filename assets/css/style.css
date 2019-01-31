@@ -121,6 +121,7 @@ h1 {
     padding-top: 10px;
     padding-bottom: 5px;
     font-size: 65%;
+    margin: auto;
 }
 
 /* Removing pad-L/R: 50px to math out inner
@@ -199,7 +200,7 @@ textarea {
 .portpics { 
     padding: auto; 
     width: 194px;
-    height: 194px;
+    height: 195px;
 
 }
 
