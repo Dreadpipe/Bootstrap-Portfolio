@@ -138,6 +138,7 @@ content of 960px container*/
     border-color: #dddddd;
 /*MAY NEED TO REMOVE 960
     width: 960px;*/
+    width: 90%;
     margin: auto;
     font-family: "Arial", "Helvetica Neue", 
     Helvetica, sans-serif;
