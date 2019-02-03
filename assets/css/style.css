@@ -1,4 +1,4 @@
-/*margin assistance from TA Jacob, not too familiar with how asterisk is functioning here*/
+
 * { padding:0;
     margin:0;
 }
@@ -19,7 +19,7 @@ body {
     height: 75px;   
 }
 
-/*Applying RESET- font-size, text-align left, padding-left, top, bottom, dropped width from 350*/
+
 /*CSS added for BS, reducing font-size, width from 290*/
 .name {
     background-color: #4aaaa5;
@@ -265,4 +265,4 @@ textarea {
     display: inline;
 }
 
-/*NEW CSS FOR BOOTSTRAP ADJUSTMENTS*/
+
