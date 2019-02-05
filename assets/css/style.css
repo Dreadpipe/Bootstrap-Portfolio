@@ -13,7 +13,7 @@ body {
 
 .header {
     background-color: #ffffff;
-    border-bottom: solid 3px #cccccc;
+    /*border-bottom: solid 3px #cccccc;*/
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 50px;
     height: 75px;   
@@ -28,7 +28,7 @@ body {
     width: 250px;
     padding-top: 24px;
     padding-left: 20px;
-    padding-bottom: 23px; 
+    padding-bottom: 26px; 
     float: left;
     text-align: left;
     font-size: 135%;
@@ -41,8 +41,11 @@ body {
     position: relative;
     top: 20px;
     */
+    /*DO NOT APPLY OWN CSS, IF POSSIBLE*/
+    /*float keeps NAV right, but may break fucntionality on mobile*/
     float: right;
-    margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     background-color: #ffffff;
     /*
     font-size: 80%;
@@ -95,15 +98,15 @@ h1 {
     /*Adjusting height makes tiny profile pic for
     small screens!*/
     width: 75%;
-    height: 75%;
+    height: 100%;   
 }
 
 /*Adding float-left breaks, just picture*/
 .biotext {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     line-height: 1.8em;
-    /*padding-left: 40px;*/
-    padding-right: 20px;
+    padding-left: 40px;
+    /*padding-right: 20px;*/
 
 }
 

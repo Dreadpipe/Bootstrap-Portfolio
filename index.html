@@ -26,7 +26,7 @@
                             <a href="contact.html">Contact</a>
                             &#124
                         </nav>-->
-                        <!--NAV misbehaving on mobile devices, functions in-browser-->
+                        <!--NAV misbehaving on mobile devices, functions in-browser, still off alignment from container-->
                         <nav class="nav navbar navbar-expand-lg navbar-light">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
@@ -55,11 +55,21 @@
                     <div class="row">
                         <!--Hidden div to correct spacing for now-->
                         <!--<div class="col-1"></div>-->
-                        <img class="bioimage col-3" src="assets/images/profile.jpg" alt="profile pic"></img>
-                        <p class="biotext col-9">Well met!  I'm an aspiring developer and current full-time low-voltage contractor.  
+                        <!--Container and row fix pictures issues-->
+                        <div class ="container">
+                            <div class ="row">
+                                <img class="bioimage col-12" src="assets/images/profile.jpg" alt="profile pic"></img>
+                            </div>
+                            </div>
+                            <!--Correct or eliminate own container CSS-->
+                            <div class = "container">
+                                <div class ="row">
+                            <p class="biotext col-12">Well met!  I'm an aspiring developer and current full-time low-voltage contractor.  
                             I've spent a life immersed in technology and exploring creative facets, but none have yet to bear fruit.  After enduring a few winters in Chicago- coring concrete and digging trenches- I knew I wasn't reaching my potential.  Welcome to the first stage of my journey as coding student at Northwestern University!
                             I'm a lover of music and art, but I'm an analyst-by-nature, and I intend to pair my love of creating with my penchant for tech.  Watch this space!
                         </p>
+                    </div>
+                    </div>
                         <!--Second hidden Div, may be unnessary-->
                         <!--<div class="col-1"></div>-->
                     </div>
