@@ -4,6 +4,7 @@
         <!--previous code as comments for reference/to mitigate morbid fear-->
         <!--ADD NEW META DATA ACROSS ALL PAGES-->
         <meta charset="UTF-8" lang="en-us">
+        <!--meta tags giving odd messages in dev tools-->
         <meta name="viewport" content="width=device-width, initial scale=1">
         <!--BOOTSTRAP ACTIVATED-->
         <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
@@ -13,19 +14,11 @@
     </head>
     <!--Classes on the body, remedy-->
     <body>
-        <!--Name is off, margins are bad-->
             <header class="header">
                 <div class="size960">
-                <!--<div class="container">-->
+                <!--<div class="container">--proper div container conflicts with personal CSS- BAD BEN, can remedy with time-->
+                    <!--Make name link to index across all pages-->
                     <h1 class="name">Benjamin C Harris</h1>
-                        <!--PREVIOUS NAV BAR--<nav class="nav">
-                            <a href="index.html">About</a>
-                            &#124
-                            <a href="portfolio.html">Portfolio</a>
-                            &#124
-                            <a href="contact.html">Contact</a>
-                            &#124
-                        </nav>-->
                         <!--NAV misbehaving on mobile devices, functions in-browser, still off alignment from container-->
                         <nav class="nav navbar navbar-expand-lg navbar-light">
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +40,8 @@
                         </nav>
                 </div>             
             </header>
-            <!--REMOVED bio text split <p>, added single <div> row, kept original CSS 'container'-->
+            <!--REMOVED bio text split <p>, added single <div> row, kept original CSS 'container',
+                now understand that this is what caused initial problems.-->
                 <section class="container size960">
                     <div class="row">
                         <h2 class="h2 col-11">About Me</h2>
@@ -58,23 +52,23 @@
                         <!--Container and row fix pictures issues-->
                         <div class ="container">
                             <div class ="row">
-                                <img class="bioimage col-12" src="assets/images/profile.jpg" alt="profile pic"></img>
+                                <!--Need to make pic look normal on both small and large screens!-->
+                                <img class="bioimage img-fluid col-12" src="assets/images/profile.jpg" alt="profile pic"></img>
                             </div>
+                        </div>
+                            <!--Correct or eliminate own container CSS, using Bootstrap spacing to correct-->
+                        <div class = "container pt-0 pb-0">
+                            <div class ="row">
+                                <p class="biotext col-12">Well met!  I'm an aspiring developer and current full-time low-voltage contractor.  
+                                I've spent a life immersed in technology and exploring creative facets, but none have yet to bear fruit.  After enduring a few winters in Chicago- coring concrete and digging trenches- I knew I wasn't reaching my potential.  Welcome to the first stage of my journey as coding student at Northwestern University!
+                                I'm a lover of music and art, but I'm an analyst-by-nature, and I intend to pair my love of creating with my penchant for tech.  Watch this space!
+                                </p>
                             </div>
-                            <!--Correct or eliminate own container CSS-->
-                            <div class = "container">
-                                <div class ="row">
-                            <p class="biotext col-12">Well met!  I'm an aspiring developer and current full-time low-voltage contractor.  
-                            I've spent a life immersed in technology and exploring creative facets, but none have yet to bear fruit.  After enduring a few winters in Chicago- coring concrete and digging trenches- I knew I wasn't reaching my potential.  Welcome to the first stage of my journey as coding student at Northwestern University!
-                            I'm a lover of music and art, but I'm an analyst-by-nature, and I intend to pair my love of creating with my penchant for tech.  Watch this space!
-                        </p>
-                    </div>
-                    </div>
-                        <!--Second hidden Div, may be unnessary-->
-                        <!--<div class="col-1"></div>-->
+                        </div>
                     </div>
                 </section>
-            </div>     
+            </div>  
+            <!--Footer should dissect from main container-->
         <footer class="footer"><p class="footcenter">Copyright &copy; Benjamin C Harris</p></footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
